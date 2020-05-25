@@ -810,7 +810,7 @@ install_bbr_bbrplus() {
     is_root
 	check_system
     wget -N -O tcp.sh https://raw.githubusercontent.com/231689023111/v2ray/master/tcp.sh && chmod 755 tcp.sh && ./tcp.sh
-	rm -f tcp.sh
+    #rm -f tcp.sh
 	echo -e "${GreenBG} bbr/bbrplus安装成功	${Font}"
 }
 
